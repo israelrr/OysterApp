@@ -1,0 +1,30 @@
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 $xl-size;
+}
+
+.header {
+    background: $cyan;
+    color: white;
+    margin-bottom: $m-size;
+    padding: $m-size 0;
+}
+
+.header__title {
+    font-size: $l-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: white;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 10;
+}
+
+@media(min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $xl-size;
+    }
+}

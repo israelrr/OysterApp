@@ -1,0 +1,22 @@
+//Button 
+
+.button {
+    background: $teal;
+    border: none;
+    border-bottom: 0.3rem solid darken($color: $teal, $amount: 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+.button-loggin {
+    margin-top: $l-size;
+    width: 25%;
+}
